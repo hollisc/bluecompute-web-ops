@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: "web"
-        image: us.icr.io/devops-gse-poc/refarch-cloudnative-bluecompute-web-appsody:29e5aef2bdf3f444daddf4332bcaa483b68f05cb
+        image: us.icr.io/devops-gse-poc/bluecompute-web:0.6.0
         imagePullPolicy: "Always"
         volumeMounts:
         - name: config-volume
